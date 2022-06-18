@@ -1,0 +1,178 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Poppins-Light"; src: url("../fonts/Poppins-Light.otf"); }
+@font-face { font-family: "Poppins-Italic"; src: url("../fonts/Poppins-Italic.otf"); }
+@font-face { font-family: "Poppins-Regular"; src: url("../fonts/Poppins-Regular.otf"); }
+@font-face { font-family: "Poppins-Medium"; src: url("../fonts/Poppins-Medium.otf"); }
+@font-face { font-family: "Poppins-Semibold"; src: url("../fonts/Poppins-Semibold.otf"); }
+@font-face { font-family: "Poppins-Bold"; src: url("../fonts/Poppins-Bold.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 0.5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 50px 15px; }
+.d-flex { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+.align-items-center { -webkit-align-items: center; align-items: center; }
+p {
+	font-family: "Poppins-Light";
+}
+
+/*------- Common CSS Ends -------*/
+
+
+/*------- Coming Soon Page Starts -------*/
+
+.bg-coming-soon {
+	padding: 0;
+}
+.bg-coming-soon > .row { margin: 0; }
+.bg-coming-soon > .row > [class*="col-"] { padding: 0; }
+.bg-coming-soon-banner {
+	background: url("../images/bg-coming-soon.jpg") no-repeat top/cover;
+	height: 100vh;
+	position: relative;
+	z-index: 1;
+}
+.bg-coming-soon-banner::after {
+	background-color: rgb(0 0 0 / 84%);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.box-coming-soon-banner {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 100%;
+	z-index: 1;
+}
+.box-coming-soon-logo > img {
+	margin-bottom: 45px;
+	width: 140px;
+}
+.box-coming-soon-info > p {
+	background-color: #fc561e;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-ms-border-radius: 14px;
+	-o-border-radius: 14px;
+	border-radius: 14px;
+	color: #ffffff;
+	display: inline-block;
+	font: 1.8rem/1 "Poppins-SemiBold";
+	margin-bottom: 30px;
+	padding: 15px 20px;
+}
+.box-coming-soon-info > h1 {
+	color: #ffffff;
+	font: 3rem/1.2 "Poppins-Semibold";
+	margin-bottom: 30px;
+	padding: 0 30px;
+}
+.box-coming-soon-info > h5 {
+	color: #ffffff;
+	font: 1.2rem/1.3 "Poppins-Light";
+	padding: 0 50px;
+}
+.coming-soon-box-contact-info-heading > h2 {
+	color: #000000;
+	font: 2.4rem/1.2 "Poppins-SemiBold";
+	margin-bottom: 15px;
+	text-align: center;
+}
+.coming-soon-box-contact-info-heading > h5 {
+	color: #777777;
+	font: 1.2rem/1.4 "Poppins-Light";
+	padding: 0 50px;
+	text-align: center;
+}
+.coming-soon-form { padding: 0 50px; }
+.form-control-coming-soon {
+	font-family: "Poppins-Light";
+}
+textarea.form-control-coming-soon {
+	resize: none;
+}
+.btn-send-message {
+	background-color: #21af8f;
+	border-color: #21af8f;
+	font-family: "Poppins-Regular";
+}
+.btn-send-message:hover,
+.btn-send-message:focus {
+	background-color: #159b77;
+	border-color: #159b77;
+}
+.copyright-info-coming-soon > p {
+	margin-top: 30px;
+}
+.copyright-info-coming-soon > p > span {
+	color: #21af8f;
+	font-family: "Poppins-Regular";
+}
+
+/*------- Coming Soon Page Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+	/*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+
+	/*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+	/*------- Desktop Logo and Navbar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { background-color: #ffffff; display: block; left: 0; padding: 15px 30px; position: -webkit-sticky; position: sticky; top: 0; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; z-index: 11; }
+.header-logo-desktop > a { display: inline-block; }
+.header-logo-desktop > a > img { width: 120px; }
+.header-logo-desktop > a > p { color: #272727; font: 3rem/1.2 "GoogleSans-Black"; letter-spacing: 0.5px; text-transform: uppercase; }
+.header-logo-desktop > a > p > span { color: #c7151b; }
+.menu-listing-desktop > li { display: inline-block; margin-right: 40px; }
+.menu-listing-desktop > li:last-child { margin-right: 0; }
+.menu-listing-desktop > li > a { color: #272727; display: block; font: 1.6rem/1.2 "GoogleSans-Regular"; text-transform: uppercase; }
+.menu-listing-desktop > li.active > a,
+.menu-listing-desktop > li > a:hover { color: #c7151b; }
+
+	/*------- Desktop Logo and Navbar Menu Section Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+
+	/*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
