@@ -4,7 +4,7 @@
 @font-face { font-family: "Poppins-Italic"; src: url("../fonts/Poppins-Italic.otf"); }
 @font-face { font-family: "Poppins-Regular"; src: url("../fonts/Poppins-Regular.otf"); }
 @font-face { font-family: "Poppins-Medium"; src: url("../fonts/Poppins-Medium.otf"); }
-@font-face { font-family: "Poppins-Semibold"; src: url("../fonts/Poppins-Semibold.otf"); }
+@font-face { font-family: "Poppins-SemiBold"; src: url("../fonts/Poppins-SemiBold.otf"); }
 @font-face { font-family: "Poppins-Bold"; src: url("../fonts/Poppins-Bold.otf"); }
 
 /*------- Font Family Ends -------*/
@@ -94,7 +94,7 @@ p {
 }
 .box-coming-soon-info > h1 {
 	color: #ffffff;
-	font: 3rem/1.2 "Poppins-Semibold";
+	font: 3rem/1.2 "Poppins-SemiBold";
 	margin-bottom: 30px;
 	padding: 0 30px;
 }
